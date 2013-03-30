@@ -23,6 +23,7 @@
 		8502B34917003F48000F1750 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8502B32417003F48000F1750 /* Foundation.framework */; };
 		8502B35117003F48000F1750 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8502B34F17003F48000F1750 /* InfoPlist.strings */; };
 		8502B35417003F48000F1750 /* lesson14_UIPageControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8502B35317003F48000F1750 /* lesson14_UIPageControlTests.m */; };
+		8502B35E17004F09000F1750 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8502B35D17004F09000F1750 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		8502B35017003F48000F1750 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8502B35217003F48000F1750 /* lesson14_UIPageControlTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lesson14_UIPageControlTests.h; sourceTree = "<group>"; };
 		8502B35317003F48000F1750 /* lesson14_UIPageControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lesson14_UIPageControlTests.m; sourceTree = "<group>"; };
+		8502B35D17004F09000F1750 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8502B35E17004F09000F1750 /* QuartzCore.framework in Frameworks */,
 				8502B32317003F48000F1750 /* UIKit.framework in Frameworks */,
 				8502B32517003F48000F1750 /* Foundation.framework in Frameworks */,
 				8502B32717003F48000F1750 /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +90,7 @@
 		8502B31617003F48000F1750 = {
 			isa = PBXGroup;
 			children = (
+				8502B35D17004F09000F1750 /* QuartzCore.framework */,
 				8502B32817003F48000F1750 /* lesson14_UIPageControl */,
 				8502B34C17003F48000F1750 /* lesson14_UIPageControlTests */,
 				8502B32117003F48000F1750 /* Frameworks */,

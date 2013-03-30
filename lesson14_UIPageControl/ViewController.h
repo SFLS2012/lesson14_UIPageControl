@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIScrollViewDelegate>{
+    UIScrollView *myScrollView;
+    UIPageControl *myPageControl;
+    UIView *PageView;
+    UILabel *PageLabel;
+}
 
 @end
